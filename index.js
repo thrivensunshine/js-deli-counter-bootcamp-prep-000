@@ -7,6 +7,17 @@
  
 //   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 // }
+let num = 0
+
+function takeANumber(katzDeliLine){
+ let person = {
+   num: num++,
+   time: Time.now() 
+ }
+  katzDeliLine.push(person)
+  
+  return person.num;
+}
 
 //function two---------------------now serving--------
 
