@@ -1,12 +1,12 @@
 //----------function one-----------take a number--------
 
-function takeANumber(katzDeliLine, name){
+// function takeANumber(katzDeliLine, name){
   
-  katzDeliLine.push(name);
- // console.log(katzDeliLine)
+//   katzDeliLine.push(name);
+// // console.log(katzDeliLine)
  
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
-}
+//   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
+// }
 
 //function two---------------------now serving--------
 
